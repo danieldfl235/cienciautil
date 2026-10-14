@@ -1,0 +1,12 @@
+:root { --papel: #efe5cf; --tinta: #1d2a4a; --sombra: #4f74d1; --destaque: #f2bf2c; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--papel); color: var(--tinta); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font: 800 2.2rem/1.1 "Arial Black", Arial, sans-serif; letter-spacing: .02em; text-shadow: 3px 3px 0 var(--sombra); margin: .4em 0; }
+h2 { font: 700 1.15rem Arial, sans-serif; margin-top: 2em; }
+a { color: var(--tinta); text-decoration-color: var(--sombra); text-decoration-thickness: 2px; }
+code { background: #fff6; padding: 0 .3em; }
+.slogan { font-family: "Courier New", monospace; border-bottom: 3px solid var(--tinta); padding-bottom: .6em; }
+.data { font-family: "Courier New", monospace; font-size: .85rem; }
+nav { display: flex; flex-direction: column; gap: .6em; margin-top: 2.5em; padding: 1em; background: var(--destaque); border: 3px solid var(--tinta); font-family: Arial, sans-serif; font-weight: 700; }
+hr { border: 0; border-top: 2px dashed var(--tinta); margin: 3em 0; }
